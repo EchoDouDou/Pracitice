@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两列布局</title>
+    <style>
+        /*.left{*/
+            /*float: left;*/
+            /*width: 100px;*/
+            /*!*height: 100px;*!*/
+            /*background-color: pink;*/
+            /*margin-right: 40px;*/
+        /*}*/
+        /*!*.right_wrapper{*!*/
+            /*!*float: right;*!*/
+            /*!*width: 100%;*!*/
+            /*!*margin-left: -100px;*!*/
+            /*!*background-color: yellow;*!*/
+        /*!*}*!*/
+        /*.right{*/
+            /*!*margin-left: 130px;*!*/
+            /*overflow: hidden;*/
+            /*background-color: yellow;*/
+        /*}*/
+        .wrapper{
+            display: flex;
+        }
+        .left{
+            width: 20rem;
+            background-color: pink;
+        }
+        .right{
+            flex: 1;
+            background-color: yellow;
+            margin-left: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left">xxgggg</div>
+        <!--<div class="right_wrapper">-->
+            <div class="right">
+                lllogoto
+            </div>
+        <!--</div>-->
+    </div>
+</body>
+</html>
